@@ -3,7 +3,7 @@
 ## Running the application to the default docker compose file 
 * Create a network named mynet _$ docker network create mynet_
 * install Docker Desktop latest version
-* to start building the container image run  _docker compose up -d _
+* to start building the container image run ** docker compose up -d **
 
 ## Tag reference link
 https://hub.docker.com/_/microsoft-mssql-server
