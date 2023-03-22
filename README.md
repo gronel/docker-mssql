@@ -1,10 +1,12 @@
-# Mysql Docker Container
+# MSSQL Docker Container
 
 ## Running the application to the default docker compose file 
 * Create a network named mynet _$ docker network create mynet_
 * install Docker Desktop latest version
-* Set contents of your docker-compose.yml 
-* run  docker compose up to start building the container image
+* to start building the container image run  _docker compose up -d _
+
+## Tag reference link
+https://hub.docker.com/_/microsoft-mssql-server
 
 ## Code of Conduct RESPECT, RESPONSIBILITY, RELATIONSHIP
 
