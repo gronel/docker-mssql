@@ -9,7 +9,7 @@ services:
     environment:
       MSSQL_SA_PASSWORD: $DB_PASSWORD
       ACCEPT_EULA: 'Y'
-      MSSQL_PID: 'Developer'
+      MSSQL_PID: 'Express'
     volumes:
       - "./data/mssql/backup:/var/opt/mssql/backup"
       - "./data/mssql/db:/var/opt/mssql/data"
